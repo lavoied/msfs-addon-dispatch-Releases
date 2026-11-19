@@ -1,13 +1,13 @@
 {
-  "version": "0.9.2",
+  "version": "0.9.2.1",
   "prerelease": true,
   "notes": [
-    "Initial release for update system testing."
+    "Fix Serper image downloads exceeding 10 MB and improve download error messages."
   ],
-  "page": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.2",
+  "page": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.2.1",
   "download": {
-    "url": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/download/v0.9.2/Hangar2024.exe",
-    "sha256": "12dc79222199abdb7ca9666a6499968477442ff277e74da761d9c25a2f484e1e",
-    "size": 203507539
+    "url": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/download/v0.9.2.1/Hangar2024.exe",
+    "sha256": "36ff0db4efaa17363a2ea94e41e533aae69e0826b54f1a1abd79dd903072c25c",
+    "size": 203528072
   }
 }
