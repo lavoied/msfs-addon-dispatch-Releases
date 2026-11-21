@@ -1,16 +1,16 @@
 {
-  "version": "0.9.3",
+  "version": "0.9.4",
   "prerelease": false,
   "notes": [
-    "Natural Earth I shaded relief with faster map rendering and detailed coastlines.",
-    "Restore green active markers and show land borders only.",
-    "Rename the executable to MSFSAddonDispatch.exe.",
-    "Fix large Serper image downloads and improve error messages."
+    "Simplify sidebar navigation and move Settings, day/night and Add new addon.",
+    "Add combinable Active and Favorites filters and cover sorting.",
+    "Preserve pinned filter sets and improve import buttons.",
+    "Fix portable detection for automatic updates."
   ],
-  "page": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.3",
+  "page": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.4",
   "download": {
-    "url": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/download/v0.9.3/MSFSAddonDispatch.exe",
-    "sha256": "f3171c5bcced359da5ec4d4a53f03a16222e7db76ea0a2549a202c36ae5d1396",
-    "size": 226117331
+    "url": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/download/v0.9.4/MSFSAddonDispatch.exe",
+    "sha256": "47d21e934fc1b2a06bf43bba455788198ef672ca51d453aac6135e423ee5a6a0",
+    "size": 226121427
   }
 }
