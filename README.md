@@ -1,12 +1,12 @@
 # MSFS Addon Dispatch
 
-> **Project status:** Dispatch is functional and under active development. Your ideas, suggestions and feedback are welcome! Share them through [GitHub Issues](https://github.com/lavoied/msfs-addon-dispatch-Releases/issues).
+> **Project status:** Dispatch is functional and under active development. The current preview is **[0.9.6](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.6)**. Your ideas, suggestions and feedback are welcome! Share them through [GitHub Issues](https://github.com/lavoied/msfs-addon-dispatch-Releases/issues).
 
 **Organize your add-ons. Find your next destination. Prepare what the simulator loads.**
 
 MSFS Addon Dispatch is a Windows add-on manager for **Microsoft Flight Simulator 2024**. Keep your add-ons in a library outside Community, browse them as covers, a list or scenery points on an offline map, and activate the content you want for your next flight.
 
-[**Download the latest version**](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/latest) · [User guide](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki) · [Release notes](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases)
+[**Download 0.9.6 (pre-release)**](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.6) · [User guide](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki) · [Release notes](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases)
 
 ![MSFS Addon Dispatch with cover view, library filters and the Details panel](images/dispatch-overview.png)
 
@@ -21,6 +21,7 @@ MSFS Addon Dispatch is a Windows add-on manager for **Microsoft Flight Simulator
 - **Explore scenery on an offline map.** View scenery with detected coordinates, including individual airports within multi-airport packs. Activate or deactivate add-ons using the map, including a selected area.
 - **Personalize thumbnails.** Keep package images, paste an image from the clipboard or use Google Images to find one. Optional in-app image search is available with your own Serper API key. Store multiple thumbnails and select a main image.
 - **Reuse your setup.** Save frequently used filters as pinned views and save active add-on sets as activation groups.
+- **Find your manuals.** Use the Documents view with your library filters to find PDF guides grouped by add-on. They open in your default Windows reader and remain in their original folders.
 - **Keep track of your data.** View installed versions, added and updated dates, folder sizes and available location information. Use manual database backups or enable weekly backups.
 - **Stay up to date.** Dispatch can check for updates at startup and display an indicator beside **About**. You decide when to install an available update.
 
@@ -28,13 +29,15 @@ The interface is available in **English and French**, with **Day and Night** mod
 
 ## Getting started
 
-1. Download **MSFSAddonDispatch.exe** from the [latest release](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/latest), place it in a writable folder and run it.
-2. In the welcome setup, select your **MSFS 2024 Community folder**. Use automatic detection if available, then verify the selected path.
-3. Select your **add-on library folder**. Use a separate folder from Community; your existing subfolder organization can stay in place.
+1. Download **MSFSAddonDispatch.exe** from the [0.9.6 pre-release](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.6), place it in a writable folder and run it.
+2. In the welcome setup, select your **add-on library folder (required)**. Dispatch scans its subfolders, so you can keep your existing organization.
+3. Optionally select your **MSFS 2024 Community folder**. Use automatic detection or browse to choose it. Without Community you can scan, import and organize your library, but you cannot activate or deactivate add-ons. Configure it later in Settings. If you choose both folders, they must be separate and not nested.
 4. Run **Scan** to build the catalog. Run it again after adding or changing add-on folders manually.
 5. Browse, filter and activate the add-ons you need for your flight.
 
-To import a new archive, drag it anywhere onto the application window or click **Add new addon**.
+Setup and the first scan do not modify or move files in your library or Community folder. Existing links with matching folder names and destinations are recognized as active automatically.
+
+To import a new archive, drag it anywhere onto the application window or click **Add new addon**. During import you can correct the category and add a new subcategory directly in the form. A category correction made during import does not override manifest detection on future scans.
 
 ## User guide
 
@@ -42,6 +45,7 @@ Visit the **[User Guide Wiki](https://github.com/lavoied/msfs-addon-dispatch-Rel
 
 - [Using the sidebar, pinned views and activation groups](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Sidebar-guide)
 - [Adding and managing thumbnails](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Thumbnail-management)
+- [Finding PDF manuals in Documents](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Documents)
 - [Setting up optional image search with Serper](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Serper-setup)
 
 ## Requirements

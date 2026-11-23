@@ -1,16 +1,16 @@
 {
-  "version": "0.9.5",
-  "prerelease": false,
+  "version": "0.9.6",
+  "prerelease": true,
   "notes": [
-    "Check for updates at startup, with an optional setting and an About badge.",
-    "Customize list columns and cover sizes; improve row selection and keyboard navigation.",
-    "Show individual airport locations and fix ZIP paths using Windows separators.",
-    "Add diagnostic logs and clearer scan summaries; refine import controls."
+    "Add a Documents view to find PDF manuals and open them in the default Windows reader.",
+    "Improve first-run setup: require a library and make Community optional for organization.",
+    "Add import category corrections and inline shared subcategory creation.",
+    "Add release notes access and new default pinned views."
   ],
-  "page": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.5",
+  "page": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.6",
   "download": {
-    "url": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/download/v0.9.5/MSFSAddonDispatch.exe",
-    "sha256": "9ebb8d3749a2b55ee9f43420b509396cbe5861e30daa567fffe58006b7225e23",
-    "size": 226146003
+    "url": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/download/v0.9.6/MSFSAddonDispatch.exe",
+    "sha256": "418f84e42bf89afe4accd54095dc1cbb4cfe52d8a43dc6f707a748ae0f6ddcc4",
+    "size": 226166483
   }
 }
