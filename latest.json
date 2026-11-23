@@ -1,16 +1,16 @@
 {
-  "version": "0.9.4",
+  "version": "0.9.5",
   "prerelease": false,
   "notes": [
-    "Simplify sidebar navigation and move Settings, day/night and Add new addon.",
-    "Add combinable Active and Favorites filters and cover sorting.",
-    "Preserve pinned filter sets and improve import buttons.",
-    "Fix portable detection for automatic updates."
+    "Check for updates at startup, with an optional setting and an About badge.",
+    "Customize list columns and cover sizes; improve row selection and keyboard navigation.",
+    "Show individual airport locations and fix ZIP paths using Windows separators.",
+    "Add diagnostic logs and clearer scan summaries; refine import controls."
   ],
-  "page": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.4",
+  "page": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/tag/v0.9.5",
   "download": {
-    "url": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/download/v0.9.4/MSFSAddonDispatch.exe",
-    "sha256": "47d21e934fc1b2a06bf43bba455788198ef672ca51d453aac6135e423ee5a6a0",
-    "size": 226121427
+    "url": "https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/download/v0.9.5/MSFSAddonDispatch.exe",
+    "sha256": "9ebb8d3749a2b55ee9f43420b509396cbe5861e30daa567fffe58006b7225e23",
+    "size": 226146003
   }
 }
