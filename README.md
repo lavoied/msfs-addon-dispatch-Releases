@@ -6,7 +6,7 @@
 
 MSFS Addon Dispatch is a Windows add-on manager for **Microsoft Flight Simulator 2024**. Keep your add-ons in a library outside Community, browse them as covers, a list or scenery points on an offline map, and activate the content you want for your next flight.
 
-[**Download the latest version**](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/latest) · [Release notes](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases)
+[**Download the latest version**](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/latest) · [User guide](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki) · [Release notes](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases)
 
 ![MSFS Addon Dispatch with cover view, library filters and the Details panel](images/dispatch-overview.png)
 
@@ -36,73 +36,13 @@ The interface is available in **English and French**, with **Day and Night** mod
 
 To import a new archive, drag it anywhere onto the application window or click **Add new addon**.
 
-## Understanding the sidebar
+## User guide
 
-![Annotated guide to the MSFS Addon Dispatch sidebar](images/sidebar-guide-en.png)
+Visit the **[User Guide Wiki](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki)** for illustrated instructions:
 
-### Add new addon
-
-Open the import window with the button, or drop one or more ZIP, RAR or 7z archives onto Dispatch. Each import entry lets you review the add-on information and assign tags and a subcategory.
-
-### Uncategorized
-
-Find add-ons that do not have a subcategory yet. Select an add-on and use the Details panel to classify it.
-
-### Pinned views
-
-A pinned view remembers a set of filters, such as scenery in a particular country or add-ons with a specific tag. Configure your filters, choose **Pin view**, and give the view a name. Click it later to restore those criteria.
-
-Pinned views change **what you see**, not which add-ons are active. Removing a pinned view does not delete its add-ons.
-
-### Activation groups
-
-An activation group stores a set of add-ons to use together.
-
-1. Activate the add-ons you want to include.
-2. Click **+** beside **Activation Groups** and enter a name.
-3. Use the menu beside the group to **Apply**, **Edit**, **Rename** or **Delete** it.
-
-**Apply** activates the group's members and deactivates other add-ons in the configured library. Clicking a group name alone does not apply it. **Edit** lets you change its members, then save or cancel. Deleting a group does not delete the add-on files.
-
-> **Pinned views save what you want to see. Activation groups save what you want to activate.**
-
-## Optional thumbnail search with Serper
-
-Dispatch can search for thumbnail images directly in the application using your own **Serper API key**. This is optional: importing, organizing, activating add-ons and using the offline map do not require a Serper account.
-
-1. Create an account at [serper.dev](https://serper.dev/) and obtain your API key from your account dashboard.
-2. Open **Settings → Image search** in Dispatch.
-3. Paste the key into **Serper API key**, choose **Images per search** (5 by default, up to 20), and save your settings.
-4. Select an add-on, open **Details**, enter edit mode and click **Add Thumbnail via Serper API**.
-5. Pick an image from the search results to add it to the add-on's gallery. Request the next set of results if you need more choices.
-
-Image search uses the add-on's name and developer to help find relevant results. You can keep multiple thumbnails, remove images and choose the main thumbnail. Clipboard paste and opening Google Images remain available alternatives.
-
-Keep your API key private. Requests use your own Serper account and its available credits; account limits and pricing are managed by Serper.
-
-## Managing add-on thumbnails
-
-Select an add-on, open **Details** and click **Edit** to manage its thumbnail gallery.
-
-![How to search for and manage add-on thumbnails in Dispatch](images/thumbnail-guide-en.png)
-
-### Add an image
-
-- **Add Thumbnail via Serper API** opens image search inside Dispatch. Click a result to add that image to the gallery. Use **Show next 5** (or your configured result count) to browse more results. See the Serper setup instructions above if you have not entered an API key yet.
-- **Search Google Images** opens a search in your web browser. Copy an image, return to Dispatch and use **Paste image from clipboard** when a valid image is available.
-- You can keep several thumbnails for the same add-on; adding an image does not require removing the existing ones.
-
-### Choose the main image
-
-The current main image is marked **Primary**. When the gallery contains more than one image, click **Set as primary** below another image to make it the default thumbnail.
-
-Use the left and right arrows on the cover or in Details to browse the gallery. The arrows appear only when there is more than one image.
-
-### Remove an image
-
-Click the small **×** in the upper-right corner of its thumbnail in the editor. Removing a package-provided thumbnail from the gallery does not delete the original image from the add-on folder, and scanning the library again will not automatically bring that removed image back.
-
-**Thumbnail changes are saved immediately.** They do not wait for the metadata **Save** button, and **Cancel** does not undo thumbnail additions, removals or main-image changes.
+- [Using the sidebar, pinned views and activation groups](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Sidebar-guide)
+- [Adding and managing thumbnails](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Thumbnail-management)
+- [Setting up optional image search with Serper](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Serper-setup)
 
 ## Requirements
 
