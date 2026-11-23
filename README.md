@@ -6,6 +6,8 @@ MSFS Addon Dispatch is a Windows add-on manager for **Microsoft Flight Simulator
 
 [**Download the latest version**](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases/latest) · [Release notes](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases)
 
+![MSFS Addon Dispatch with cover view, library filters and the Details panel](images/dispatch-overview.png)
+
 ## What you can do
 
 - **Manage an existing library.** Scan your library, including its subfolders, to discover add-ons and read package information from their manifests.
@@ -92,7 +94,7 @@ Dispatch has been **tested exclusively with Microsoft Flight Simulator 2024**. I
 
 I have a background in software development and have built several applications for my organization. For a long time, I had been looking for an MSFS add-on manager that matched the way I wanted to organize and use my collection. Eventually, I decided to build my own.
 
-Dispatch was developed entirely with the help of AI. I defined the features and workflows, guided the implementation, and tested and refined the application against my own library. AI handled the coding, while I focused on shaping a tool I wanted to use myself.
+Dispatch was developed entirely with the help of AI. I defined the features and workflows, guided the implementation, and tested and refined the application against my own library. AI handled the coding, while I focused on shaping a tool I wanted to use myself. Even with that assistance, this project has involved several weeks of hands-on work: defining how things should behave, testing real add-ons, tracking down problems, and refining the interface through many iterations.
 
 What began as a personal project has grown into something I hope other flight sim enthusiasts will find useful too.
 
@@ -113,4 +115,3 @@ In **Settings**, you can create a database backup, open the backup folder or sch
 This repository contains the application's **public releases**, user-facing documentation and the manifest used by the update checker. It does not contain the application source code.
 
 See the [release notes](https://github.com/lavoied/msfs-addon-dispatch-Releases/releases) for the changes in each published version.
-
