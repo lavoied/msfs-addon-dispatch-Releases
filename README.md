@@ -1,5 +1,7 @@
 # MSFS Addon Dispatch
 
+> **Project status:** Dispatch is functional and under active development. Your ideas, suggestions and feedback are welcome! Share them through [GitHub Issues](https://github.com/lavoied/msfs-addon-dispatch-Releases/issues).
+
 **Organize your add-ons. Find your next destination. Prepare what the simulator loads.**
 
 MSFS Addon Dispatch is a Windows add-on manager for **Microsoft Flight Simulator 2024**. Keep your add-ons in a library outside Community, browse them as covers, a list or scenery points on an offline map, and activate the content you want for your next flight.
