@@ -48,6 +48,8 @@ Visit the **[User Guide Wiki](https://github.com/lavoied/msfs-addon-dispatch-Rel
 - [Finding PDF manuals in Documents](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Documents)
 - [Setting up optional image search with Serper](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Serper-setup)
 
+- [Settings, backups and troubleshooting](https://github.com/lavoied/msfs-addon-dispatch-Releases/wiki/Settings-backups-and-troubleshooting)
+
 ## Requirements
 
 - **Windows 10 or Windows 11, x64.**
@@ -67,18 +69,6 @@ I have a background in software development and have built several applications 
 Dispatch was developed entirely with the help of AI. I defined the features and workflows, guided the implementation, and tested and refined the application against my own library. AI handled the coding, while I focused on shaping a tool I wanted to use myself. Even with that assistance, this project has involved several weeks of hands-on work: defining how things should behave, testing real add-ons, tracking down problems, and refining the interface through many iterations.
 
 What began as a personal project has grown into something I hope other flight sim enthusiasts will find useful too.
-
-## Settings, backups and troubleshooting
-
-Settings, the SQLite catalog, custom thumbnails, backups and diagnostic logs are stored in:
-
-```text
-%LOCALAPPDATA%\MSFSAddonDispatch
-```
-
-The executable is portable; its user data is stored in LocalAppData rather than beside the executable. Updates preserve that data.
-
-In **Settings**, you can create a database backup, open the backup folder or schedule a restore. Diagnostic logs are available through **Open logs folder** and are retained for 14 days with size-based rotation.
 
 ## About this repository
 
