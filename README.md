@@ -78,6 +78,30 @@ Image search uses the add-on's name and developer to help find relevant results.
 
 Keep your API key private. Requests use your own Serper account and its available credits; account limits and pricing are managed by Serper.
 
+## Managing add-on thumbnails
+
+Select an add-on, open **Details** and click **Edit** to manage its thumbnail gallery.
+
+![How to search for and manage add-on thumbnails in Dispatch](images/thumbnail-guide-en.png)
+
+### Add an image
+
+- **Add Thumbnail via Serper API** opens image search inside Dispatch. Click a result to add that image to the gallery. Use **Show next 5** (or your configured result count) to browse more results. See the Serper setup instructions above if you have not entered an API key yet.
+- **Search Google Images** opens a search in your web browser. Copy an image, return to Dispatch and use **Paste image from clipboard** when a valid image is available.
+- You can keep several thumbnails for the same add-on; adding an image does not require removing the existing ones.
+
+### Choose the main image
+
+The current main image is marked **Primary**. When the gallery contains more than one image, click **Set as primary** below another image to make it the default thumbnail.
+
+Use the left and right arrows on the cover or in Details to browse the gallery. The arrows appear only when there is more than one image.
+
+### Remove an image
+
+Click the small **×** in the upper-right corner of its thumbnail in the editor. Removing a package-provided thumbnail from the gallery does not delete the original image from the add-on folder, and scanning the library again will not automatically bring that removed image back.
+
+**Thumbnail changes are saved immediately.** They do not wait for the metadata **Save** button, and **Cancel** does not undo thumbnail additions, removals or main-image changes.
+
 ## Requirements
 
 - **Windows 10 or Windows 11, x64.**
